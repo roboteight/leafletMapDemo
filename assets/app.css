@@ -1,0 +1,28 @@
+#map{
+  min-width:100vw;
+  height:100vh;}
+
+.map-legend{
+  position: absolute;
+  z-index:10;
+  width:10rem;
+  min-height: 2 rem;
+  right:calc(100% - 1rem);
+}
+
+.leaflet-popup-content-wrapper{
+  border-radius:2px!important;
+  background:#333!important;
+  color:whitesmoke!important;}
+
+.leaflet-popup-tip{
+  background:#333!important;
+  color:whitesmoke!important;}
+
+.full-width{
+  width: 100%;
+}
+.center-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;}
